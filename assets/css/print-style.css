@@ -1,0 +1,121 @@
+/* Style for the printable application */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.application-details {
+    padding: 20px;
+    border: 1px solid #ccc; /* Light gray border */
+    background-color: #f9f9f9; /* Light gray background */
+    box-shadow: 0 0 5px #ccc; /* Subtle shadow for depth */
+    max-width: 800px; /* Set a max width for the application */
+    margin: 0 auto; /* Center the application on the page */
+    position: relative; /* Position for the "stamp" */
+}
+
+.application-details h2 {
+    color: #007BFF; /* Blue heading color */
+    font-size: 18px; /* Slightly larger font size for headings */
+}
+
+.application-details p {
+    margin: 10px 0;
+    font-size: 16px; /* Slightly larger font size for text */
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 9px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Style for the h1 heading on the page */
+h1 {
+    font-size: 24px;
+    text-align:center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+/* Style for the action links in the table */
+table a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #007BFF;
+}
+
+/* Style for the action links on hover */
+table a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the "No student applications found" message */
+.no-applications {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+    color: #007BFF;
+}
+
+/* CSS for the photo container */
+.photo-container {
+    text-align: center;
+}
+
+/* Style for the student photograph */
+.photo-container img {
+    width: 120px; /* Set the desired width for the passport-size photo */
+    height: 150px; /* Set the desired height for the passport-size photo */
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style for the Print Application Form button */
+.print-button {
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around the button text */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline for links */
+    cursor: pointer; /* Display pointer cursor on hover */
+    display: block; /* Make the button a block element */
+    margin: 20px auto; /* Center the button horizontally */
+    text-align: center; /* Center the text within the button */
+}
+
+/* Style the button on hover */
+.print-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+
+/* Remove page margins and padding for printing */
+@media print {
+    body {
+        margin: 0;
+    }
+
+    .application-details {
+        border: none;
+        padding: 0;
+        box-shadow: none;
+    }
+}

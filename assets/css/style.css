@@ -1,0 +1,232 @@
+/* Apply styles to the whole body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 22px;
+    margin: 0;
+}
+/* Style for the search form */
+.search-form {
+    margin: 20px auto; /* Adjust the margin as needed */
+}
+
+/* Style for Search label */
+.search-form label{
+    color:#007BFF;
+}
+/* Style for the search input field */
+.search-form input[type="text"] {
+    width:400px; /* Adjust the width as needed */
+    padding: 8px;
+    margin-top:10px;
+}
+
+/* Style for the search button */
+.search-form input[type="submit"] {
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 8px 16px; /* Padding around the button text */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Remove underline for links */
+    cursor: pointer; /* Display pointer cursor on hover */
+}
+
+/* Style the button on hover */
+.search-form input[type="submit"]:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Center the form on the page */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+/* Style for form labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Style for text input fields and text area */
+input[type="text"],
+input[type="date"],
+input[type="email"],
+textarea {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for text area */
+textarea {
+    resize: vertical;
+}
+
+/* Style for the file input field */
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for the submit button on hover */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style for error messages */
+.error-message {
+    color: #FF0000;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+
+
+
+/*admin.php css code */
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align:center;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Style for the h1 heading on the page */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+/* Style for the action links in the table */
+table a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #007BFF;
+}
+
+/* Style for the action links on hover */
+table a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the "No student applications found" message */
+.no-applications {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+    color: #007BFF;
+}
+.not-approved-message {
+    color: #ff0000; /* Red color for the message */
+}
+
+
+/* Add these styles to your CSS file */
+.print-button {
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 8px 16px; /* Padding around the button text */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Remove underline for links */
+    cursor: pointer; /* Display pointer cursor on hover */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Style the button on hover */
+.print-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Style for the file input container */
+.file-input {
+    text-align: center;
+}
+
+/* Style for the label */
+.file-input label {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Style for the file input (hidden) */
+.file-input input[type="file"] {
+    display: none; /* Hide the default input */
+}
+
+/* Style the label on hover */
+.file-input label:hover {
+    background-color: #0056b3;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
