@@ -1,5 +1,5 @@
 # StudentAdmissionPortal
-Students register through student admission form and admin can control over application fom.
+Students register through student admission form and admin can control over application form.
 
 For running the project locally
 Use this url-http://localhost/admissionportal/
